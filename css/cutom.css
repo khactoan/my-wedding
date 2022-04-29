@@ -1,0 +1,72 @@
+.bride-groom-text, .hero .title.bride-groom-text {
+  font-family: "Open Sans Condensed", cursive ;
+}
+
+.nama-lengkap {
+  font-family: "Open Sans Condensed", cursive;
+}
+
+.ampersand {
+  font-family: "Open Sans Condensed", cursive;
+}
+
+.navbar-custom {
+  flex-direction: column;
+  position: fixed !important;
+  align-items: baseline !important;
+}
+
+.hero-body {
+  padding-top: 10em;
+  min-height: 100vh;
+}
+
+@media (max-width: 599px) {
+  .hero-body {
+    padding-top: 5em;
+  }
+
+  .hero .title {
+    font-size: 2rem;
+  }
+
+  .hero {
+    background-position-x: center;
+  }
+
+  .nama-lengkap, .ampersand {
+    font-size: 2rem;
+  }
+
+  .bodytext {
+    font-size: 13px;
+  }
+
+  .d-mobile-none {
+    display: none;
+  }
+
+  .ampersand {
+    line-height: 0;
+  }
+
+  #home {
+    padding-bottom: 0;
+  }
+
+  .main-content {
+    padding-top: 0;
+  }
+
+  #regular-section {
+    min-height: 100vh;
+  }
+
+  .custom-main-section {
+    padding-top: 20px !important;
+  }
+
+  .main-content .section-title {
+    padding-bottom: 0;
+  }
+}
