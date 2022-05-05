@@ -21,6 +21,10 @@
   min-height: 100vh;
 }
 
+.color-pink {
+  color: #996E6D;
+}
+
 @media (max-width: 599px) {
   .hero-body {
     padding-top: 5em;
@@ -32,6 +36,7 @@
 
   .hero {
     background-position-x: center;
+    background-size: 240%;
   }
 
   .nama-lengkap, .ampersand {
@@ -68,5 +73,10 @@
 
   .main-content .section-title {
     padding-bottom: 0;
+  }
+
+  .main-content .section-dark {
+    padding-left: 5px;
+    padding-right: 5px;
   }
 }
