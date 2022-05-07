@@ -38,6 +38,11 @@
   padding: 40px;
 }
 
+.min-height-unset {
+  min-height: unset !important;
+}
+
+
 @media (max-width: 599px) {
   .hero.is-large .hero-body {
     padding-top: 1em;
@@ -93,8 +98,8 @@
     padding-right: 5px;
   }
 
-  .mobile-pb-0 {
-    padding-bottom: 0 !important;
+  .mobile-pb-40 {
+    padding-bottom: 40 !important;
   }
 
   .facebook-custom {
