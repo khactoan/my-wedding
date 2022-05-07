@@ -16,8 +16,8 @@
   align-items: baseline !important;
 }
 
-.hero-body {
-  padding-top: 8em !important;
+.hero.is-large .hero-body {
+  padding-top: 10em;
   min-height: 100vh;
 }
 
@@ -39,8 +39,8 @@
 }
 
 @media (max-width: 599px) {
-  .hero-body {
-    padding-top: 5em;
+  .hero.is-large .hero-body {
+    padding-top: 1em;
   }
 
   .hero .title {
@@ -91,6 +91,10 @@
   .main-content .section-light, .main-content .section-dark, .main-content .section-darker {
     padding-left: 5px;
     padding-right: 5px;
+  }
+
+  .mobile-pb-0 {
+    padding-bottom: 0 !important;
   }
 
   .facebook-custom {
