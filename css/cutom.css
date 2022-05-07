@@ -17,12 +17,25 @@
 }
 
 .hero-body {
-  padding-top: 10em;
+  padding-top: 8em !important;
   min-height: 100vh;
 }
 
 .color-pink {
   color: #996E6D;
+}
+
+.momo-qr {
+  width: 100px;
+}
+
+.font-family-custom {
+  font-family: none;
+  color: #151414;
+}
+
+.main-content .section-light, .main-content .section-dark, .main-content .section-darker {
+  padding: 40px;
 }
 
 @media (max-width: 599px) {
@@ -75,8 +88,12 @@
     padding-bottom: 0;
   }
 
-  .main-content .section-dark {
+  .main-content .section-light, .main-content .section-dark, .main-content .section-darker {
     padding-left: 5px;
     padding-right: 5px;
+  }
+
+  .facebook-custom {
+    font-size: 14px;
   }
 }
