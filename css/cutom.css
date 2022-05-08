@@ -59,7 +59,7 @@
 
   .hero {
     background-image: url(https://picsum.photos/id/25/1920/1080);
-    background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url("../image/toanquy-bg-16-9.jpg") no-repeat;
+    background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url("../image/toanquy-bg-4-3.jpg") no-repeat;
     background-attachment: fixed;
     background-size: auto 100vh;
     color: white;
