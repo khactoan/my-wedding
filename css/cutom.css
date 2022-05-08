@@ -61,7 +61,7 @@
     background-image: url(https://picsum.photos/id/25/1920/1080);
     background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url("../image/toanquy-bg-16-9.jpg") no-repeat;
     background-attachment: fixed;
-    background-size: contain;
+    background-size: auto 100vh;
     color: white;
     box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     font-family: 'Raleway', sans-serif;
@@ -115,5 +115,19 @@
 
   .facebook-custom {
     font-size: 14px;
+  }
+
+  .wedding-party {
+    padding-top: 0 !important;
+  }
+}
+
+@media (max-width: 599px) {
+  .hero .title {
+    font-size: 1.9rem;
+  }
+
+  .main-content .section-title {
+    font-size: 1.4rem;
   }
 }
