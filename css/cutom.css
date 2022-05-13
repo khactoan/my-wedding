@@ -42,6 +42,10 @@
   min-height: unset !important;
 }
 
+.footer-info a {
+  color: white;
+}
+
 @media (max-width: 1024px) { 
   .hero.is-large {
     background-position-x: center;
